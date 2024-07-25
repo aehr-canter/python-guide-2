@@ -122,3 +122,36 @@
       "execution_count": null,
       "outputs": []
     },
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "-uvBwayhgFgx"
+      },
+      "source": [
+        "Sometimes bugs are hard to find, and it's helpful to add print statements to see what the values of certain variables are at that point in time. Say we want to write a program that takes in an word input and checks if the characters `un` were found in that input:"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "metadata": {
+        "id": "6ID5TtK_gldV"
+      },
+      "source": [
+        "# There's an error in this program -- can you spot it?\n",
+        "check = 'um'\n",
+        "\n",
+        "# Pretend that there were hundreds of lines of code here\n",
+        "# So that the lines you see above\n",
+        "# And the lines you see below\n",
+        "# Aren't right next to each other\n",
+        "# You might look to find an error in the code below\n",
+        "# But it turns out the bug is somewhere else...\n",
+        "\n",
+        "word = input(\"Input a word: \")\n",
+        "\n",
+        "if check in word:\n",
+        "  print(\"Found 'un'!\")"
+      ],
+      "execution_count": null,
+      "outputs": []
+    },
