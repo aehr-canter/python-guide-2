@@ -1,1 +1,42 @@
-
+{
+  "nbformat": 4,
+  "nbformat_minor": 0,
+  "metadata": {
+    "colab": {
+      "provenance": [],
+      "include_colab_link": true
+    },
+    "kernelspec": {
+      "name": "python3",
+      "display_name": "Python 3"
+    }
+  },
+  "cells": [
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "view-in-github",
+        "colab_type": "text"
+      },
+      "source": [
+        "<a href=\"https://colab.research.google.com/github/aehr-canter/pythonguide2/blob/main/Copy_of_P2_Python_Pt_2_(Nested_Loops%2C_Matrices%2C_Importing%2C_and_Calling_Functions).ipynb\" target=\"_parent\"><img src=\"https://colab.research.google.com/assets/colab-badge.svg\" alt=\"Open In Colab\"/></a>"
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "516Ip-B7RQNL"
+      },
+      "source": [
+        "## Welcome Back and Review\n",
+        "\n",
+        "Welcome back to the world of Python!\n",
+        "\n",
+        "Last lesson, we covered topics such as variables, input/output, conditionals, lists, and loops. In this lesson, we'll expand on those topics by talking about 2D lists (also known as matrices) and nested loops (loops within loops), and we'll cover new topics such as importing libraries and using functions.\n",
+        "\n",
+        "Let's jump right into coding with a quick review example!\n",
+        "\n",
+        "![alt text](https://media.giphy.com/media/3oKIPnAiaMCws8nOsE/giphy.gif)\n",
+        "\n"
+      ]
+    },
