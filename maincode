@@ -40,3 +40,49 @@
         "\n"
       ]
     },
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "DgN7uVbwXnHx"
+      },
+      "source": [
+        "Write a program that takes an integer input and prints the factorial of that integer. You can assume the input will always be a positive integer.\n",
+        "\n",
+        "For those who have not seen factorials before, it is the product of an integer and every positive integer below it. We usually represent factorials by writing the number followed by an exclamation mark. \"Five factorial\" would be $ 5! $, which written out is:\n",
+        "\n",
+        "$$ 5! = 1 * 2 * 3 * 4 * 5 = 120 $$\n",
+        "\n",
+        "An example run of this program might look like:\n",
+        "\n",
+        "```\n",
+        "Input an integer: 5\n",
+        "The factorial is: 120\n",
+        "```\n",
+        "\n",
+        "Be sure to use a loop (either `for` or `while`) to accomplish this task!"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "metadata": {
+        "id": "1CsuI7k7Wq0Z",
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "outputId": "38b5d68e-db36-4594-ee76-096455395899"
+      },
+      "source": [
+        "# To get you started, the line to get input is provided below\n",
+        "number = int(input(\"Input an integer: \"))"
+      ],
+      "execution_count": null,
+      "outputs": [
+        {
+          "name": "stdout",
+          "output_type": "stream",
+          "text": [
+            "Input an integer: 5\n"
+          ]
+        }
+      ]
+    },
