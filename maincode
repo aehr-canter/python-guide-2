@@ -155,3 +155,43 @@
       "execution_count": null,
       "outputs": []
     },
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "Us6wtWCMhqec"
+      },
+      "source": [
+        "If we run the code and input the word `unimportant`, we should expect the output `Found 'un'!`.\n",
+        "\n",
+        "However, it doesn't work as expected, because there's a typo that makes the program do something else.\n",
+        "\n",
+        "When we think there's a bug with our program, we can add a print statement as a check for ourselves. Run the program below and input a word:\n"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "metadata": {
+        "id": "H1AMEuELjMlV"
+      },
+      "source": [
+        "# There's an error in this program -- can you spot it?\n",
+        "check = 'um'\n",
+        "\n",
+        "# Pretend that there were hundreds of lines of code here\n",
+        "# So that the lines you see above\n",
+        "# And the lines you see below\n",
+        "# Aren't right next to each other\n",
+        "# You might look to find an error in the code below\n",
+        "# But it turns out the bug is somewhere else...\n",
+        "\n",
+        "word = input(\"Input a word: \")\n",
+        "\n",
+        "# Added this line to make sure that we're checking for 'un'\n",
+        "print(\"We're actually looking for\", check)\n",
+        "\n",
+        "if check in word:\n",
+        "  print(\"Found 'un'!\")"
+      ],
+      "execution_count": null,
+      "outputs": []
+    },
