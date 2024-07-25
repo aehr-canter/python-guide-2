@@ -86,3 +86,39 @@
         }
       ]
     },
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "It8igJ-LeiOB"
+      },
+      "source": [
+        "## Debugging\n",
+        "\n",
+        "In this lesson, we'll start to shift from reading code to writing more code. When writing code, we often run into errors or end up with programs that might not run exactly as we wanted. This is ok! In fact, all of the best programmers in the world still make errors and mistakes in their code.\n",
+        "\n",
+        "One of the tools in a programmer's toolbox is figuring out how to look for errors, or \"bugs\", in their code. The process of finding and removing bugs in your code is called **debugging**, and from computer science folklore, the origin of this word comes from legendary computer scientist Grace Hopper, who once found an actual moth in her computer (back when they were the size of rooms) that caused an error in its calculations.\n",
+        "\n",
+        "![alt text](http://www.pitt.edu/~super1/lecture/lec44911/img019.JPG)"
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "ZnZ113AQfzUt"
+      },
+      "source": [
+        "Let's look at the following code block. It's intended to print out the numbers from 1 to 5, but something's wrong. Can you debug it and figure out what needs to be changed?"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "metadata": {
+        "id": "316euGkXf_NH"
+      },
+      "source": [
+        "for num in range(1,5):\n",
+        "  print(num)"
+      ],
+      "execution_count": null,
+      "outputs": []
+    },
