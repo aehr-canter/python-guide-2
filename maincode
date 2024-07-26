@@ -454,3 +454,37 @@
         }
       ]
     },
+    {
+      "cell_type": "code",
+      "metadata": {
+        "id": "iSORg3rfo3dt"
+      },
+      "source": [
+        "print(\"When we print this\")\n",
+        "print(\"this happens on a new line.\")\n",
+        "\n",
+        "print()\n",
+        "print()\n",
+        "\n",
+        "print(\"If we want a blank line,\")\n",
+        "print()\n",
+        "print(\"We can just say print().\")\n",
+        "\n",
+        "print()\n",
+        "print()\n",
+        "\n",
+        "print(\"But when we print and include the code that says end='', \", end='')\n",
+        "print(\"the next print statement won't happen on a new line!\")"
+      ],
+      "execution_count": null,
+      "outputs": []
+    },
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "D4sWdbPYpjEy"
+      },
+      "source": [
+        "We need this, because it will help us print out a single line of the multiplication table. For example, let's see the difference between the following two blocks of code:"
+      ]
+    },
