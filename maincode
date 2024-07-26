@@ -488,3 +488,55 @@
         "We need this, because it will help us print out a single line of the multiplication table. For example, let's see the difference between the following two blocks of code:"
       ]
     },
+    {
+      "cell_type": "code",
+      "metadata": {
+        "id": "aFxLC6xnpsgH"
+      },
+      "source": [
+        "for num in range(1, 11):\n",
+        "  print(num)"
+      ],
+      "execution_count": null,
+      "outputs": []
+    },
+    {
+      "cell_type": "code",
+      "metadata": {
+        "id": "DXwbHppJpyfv"
+      },
+      "source": [
+        "for num in range(1, 11):\n",
+        "  print(num, end='')"
+      ],
+      "execution_count": null,
+      "outputs": []
+    },
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "XRB0LYKRp3bL"
+      },
+      "source": [
+        "We use `end=''` to tell the print statement that when we finish printing, we won't tell the computer to start the next print on a new line.\n",
+        "\n",
+        "Notice that after printing, we don't have any spaces between the characters as well. If we instead say `end=' '`, that means that we're telling the computer to add a space after each print."
+      ]
+    },
+    {
+      "cell_type": "code",
+      "metadata": {
+        "id": "A4Bbm6iaqREd"
+      },
+      "source": [
+        "for num in range(1, 11):\n",
+        "  print(num, end=' ')"
+      ],
+      "execution_count": null,
+      "outputs": []
+    },
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "CQDSdOJRqUi3"
+      },
