@@ -259,3 +259,38 @@
       "execution_count": null,
       "outputs": []
     },
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "cGL7mxgVZn_W"
+      },
+      "source": [
+        "Remember that the placeholder variable (`placeholder` in the following example) is automatically updated each time the loop runs:"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "metadata": {
+        "id": "ZvmifHK_Z66w"
+      },
+      "source": [
+        "for placeholder in range(1, 6):\n",
+        "  print(\"This is iteration #\",placeholder,\"of this loop\")"
+      ],
+      "execution_count": null,
+      "outputs": []
+    },
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "wuO8UPA7aFtx"
+      },
+      "source": [
+        "Also remember that every line immediately after the `for` that we indent is looped, but once we un-indent, we're outside of the loop. What would the following example print?"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "metadata": {
+        "id": "MOD9xeqhaYGq"
+      },
