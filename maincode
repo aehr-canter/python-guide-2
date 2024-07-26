@@ -334,3 +334,43 @@
       "metadata": {
         "id": "UVisQ70PbPpf"
       },
+      "source": [
+        "A quick note that there's a different way of doing this using multiplication, but the example above illustrates how we can use a loop inside of a loop, otherwise known as a **nested loop**.\n",
+        "\n",
+        "But what exactly is going on?\n",
+        "\n",
+        "Let's add some print statements to try to understand how the two loops work:"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "metadata": {
+        "id": "EBDYWz9RbtUC"
+      },
+      "source": [
+        "lis = [\"taro\", \"wintermelon\", \"passion fruit\"]\n",
+        "\n",
+        "for item in lis:\n",
+        "  print(\"We're back outside to the top of the outer loop. The item we're looking at now is\", item)\n",
+        "  for num in range(5):\n",
+        "    print(\"Inner loop, iteration #\",num)\n",
+        "    print(item)"
+      ],
+      "execution_count": null,
+      "outputs": []
+    },
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "dL8wxXB8cG1A"
+      },
+      "source": [
+        "This might look like a lot at first! But take a breath, and try to follow the code, line by line, to see which line prints which statement.\n",
+        "\n",
+        "The key thing to remember is that the inner loop will repeat 5 times before it's finished. Once it's finished, we'll get to the end of the outer loop, and the outer loop will repeat.\n",
+        "\n",
+        "Said differently, remember that the outer loop will not repeat until the inner loop is done repeating.\n",
+        "\n",
+        "Here's another example. Try to follow the code and the loops and **write down** what it would print before running it:"
+      ]
+    },
