@@ -294,3 +294,43 @@
       "metadata": {
         "id": "MOD9xeqhaYGq"
       },
+      "source": [
+        "lis = [\"coffee\", \"tea\", \"boba\"]\n",
+        "\n",
+        "for item in lis:\n",
+        "  print(\"I like the following item:\")\n",
+        "  print(item)\n",
+        "print(\"That's the whole list!\")"
+      ],
+      "execution_count": null,
+      "outputs": []
+    },
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "xFxs3Uarauuw"
+      },
+      "source": [
+        "Sometimes, it's useful for us to have a loop inside of a loop. For example, if we had a list of words and wanted to print each 5 times, how would we do this?"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "metadata": {
+        "id": "vyCnwvhxa9m0"
+      },
+      "source": [
+        "lis = [\"taro\", \"wintermelon\", \"passion fruit\"]\n",
+        "\n",
+        "for item in lis:\n",
+        "  for num in range(5):\n",
+        "    print(item)"
+      ],
+      "execution_count": null,
+      "outputs": []
+    },
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "UVisQ70PbPpf"
+      },
