@@ -195,3 +195,35 @@
       "execution_count": null,
       "outputs": []
     },
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "MBMX46wcjlkD"
+      },
+      "source": [
+        "When we run the program this time, our print statement tells us that we're actually looking for the characters `um` and not `un`. This might help us realize we had made a typo much earlier in the program, so that we go look for it and fix the typo.\n",
+        "\n",
+        "In this example, it might have been easy to spot the typo since there's not a lot of code in the program. But when programs start to get to hundreds or even thousands of lines long, typos might be harder to catch. Printing what your variables are every now and then can be useful as a debugging tool!\n",
+        "\n",
+        "Just be sure to remove the debugging print statements you added once you're done, because they likely are not part of the output you want to show a user."
+      ]
+    },
+    {
+      "cell_type": "code",
+      "metadata": {
+        "id": "rYCjkch0muyZ"
+      },
+      "source": [
+        "# The program, without the debug line, with the typo fixed\n",
+        "check = 'un'\n",
+        "\n",
+        "# Pretend that there were hundreds of lines of code here...\n",
+        "\n",
+        "word = input(\"Input a word:\")\n",
+        "\n",
+        "if check in word:\n",
+        "  print(\"Found 'un'!\")"
+      ],
+      "execution_count": null,
+      "outputs": []
+    },
