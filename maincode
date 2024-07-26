@@ -227,3 +227,35 @@
       "execution_count": null,
       "outputs": []
     },
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "UlTCjJHenC2i"
+      },
+      "source": [
+        "If all of this seems confusing at first, no worries! Debugging is a skill that takes practice, which you'll have lots of in this lesson."
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "wFMV78AAQnmu"
+      },
+      "source": [
+        "## Nested Loops\n",
+        "\n",
+        "In all examples from the first lesson, we only used a single loop at a time, like you see below:"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "metadata": {
+        "id": "h5UdW2jBZcDa"
+      },
+      "source": [
+        "for num in range(5):\n",
+        "  print(\"We're going to repeat this 5 times!\")"
+      ],
+      "execution_count": null,
+      "outputs": []
+    },
