@@ -676,3 +676,25 @@
         "We can code this up as a \"**2-dimensional list**\", or 2D list, which is a fancy way of calling a list where every element in it is a list.\n"
       ]
     },
+    {
+      "cell_type": "code",
+      "metadata": {
+        "id": "QrKNCwYJuttL"
+      },
+      "source": [
+        "two_d_list = [[\"name\", \"favorite color\"],\n",
+        "              [\"wells\", \"yellow\"],\n",
+        "              [\"susanna\", \"black\"]]"
+      ],
+      "execution_count": null,
+      "outputs": []
+    },
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "iH3ZV1fTu9ZM"
+      },
+      "source": [
+        "How can we print this list out? We can use a nested loop!"
+      ]
+    },
