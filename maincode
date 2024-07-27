@@ -618,3 +618,61 @@
       "metadata": {
         "id": "ywoBvwT8s11N"
       },
+      "source": [
+        "We see that the list inside of the list is the element with index 1. If we wanted to access that list, we would do:"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "metadata": {
+        "id": "3-sh-vBRtWHX"
+      },
+      "source": [
+        "lis = [\"element 0\", [0, 1, 2], \"element 2\"]\n",
+        "\n",
+        "print(lis[1])"
+      ],
+      "execution_count": null,
+      "outputs": []
+    },
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "DpxS4P-DtZ9p"
+      },
+      "source": [
+        "And if we wanted to loop through this list:"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "metadata": {
+        "id": "OMjbvGcMtf_p"
+      },
+      "source": [
+        "lis = [\"element 0\", [0, 1, 2], \"element 2\"]\n",
+        "\n",
+        "# This works, because lis[1] is a list and we're looping over it\n",
+        "for item in lis[1]:\n",
+        "  print(item)"
+      ],
+      "execution_count": null,
+      "outputs": []
+    },
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "RBcuUvwvtwaZ"
+      },
+      "source": [
+        "Very frequently, when we work with data for artificial intelligence, it's presented to us as a table. For example, we might have something like:\n",
+        "\n",
+        "```\n",
+        "name     favorite color\n",
+        "wells    yellow\n",
+        "susanna  black\n",
+        "```\n",
+        "\n",
+        "We can code this up as a \"**2-dimensional list**\", or 2D list, which is a fancy way of calling a list where every element in it is a list.\n"
+      ]
+    },
