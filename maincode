@@ -540,3 +540,32 @@
       "metadata": {
         "id": "CQDSdOJRqUi3"
       },
+      "source": [
+        "How might we use this to print our multiplication table using nested loops?\n",
+        "\n",
+        "Think about it a bit, and give it a try. This may also be an excellent opportunity to practice debugging! Feel free to work with others:"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "metadata": {
+        "id": "bBcNJaLvq7LM"
+      },
+      "source": [
+        "# Write your code here for printing the multiplication table, up to 10 x 10\n",
+        "# You should use a nested loop"
+      ],
+      "execution_count": null,
+      "outputs": []
+    },
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "GLqF_tVGRZRn"
+      },
+      "source": [
+        "## 2D Lists and Matrices\n",
+        "\n",
+        "Recall lists from the previous lesson:"
+      ]
+    },
