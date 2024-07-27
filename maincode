@@ -569,3 +569,52 @@
         "Recall lists from the previous lesson:"
       ]
     },
+    {
+      "cell_type": "code",
+      "metadata": {
+        "id": "dKu-qVuAsQnW"
+      },
+      "source": [
+        "lis = [\"element 0\", \"element 1\", \"element 2\"]\n",
+        "\n",
+        "for item in lis:\n",
+        "  if item == \"element 1\":\n",
+        "    print(\"Found element 1\")"
+      ],
+      "execution_count": null,
+      "outputs": []
+    },
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "M_2xLMvxshnk"
+      },
+      "source": [
+        "We know that a list can contain strings, numbers, booleans, and all other sorts of data types. But can a list contain a list? Yes!"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "metadata": {
+        "id": "2DmVU7oass6q"
+      },
+      "source": [
+        "lis = [\"element 0\", [0, 1, 2], \"element 2\"]\n",
+        "\n",
+        "for item in lis:\n",
+        "  print(item)\n",
+        "\n",
+        "print()\n",
+        "\n",
+        "# Remember indexing into a list?\n",
+        "# What would the following print?\n",
+        "print(lis[2])"
+      ],
+      "execution_count": null,
+      "outputs": []
+    },
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "ywoBvwT8s11N"
+      },
