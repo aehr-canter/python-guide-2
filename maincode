@@ -731,3 +731,54 @@
         "We'll see matrices just about everywhere when writing programs that deal with artificial intelligence."
       ]
     },
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "r82Uy65tQo1T"
+      },
+      "source": [
+        "## Libraries\n",
+        "\n",
+        "Now to switch gears and talk about one of the most important concepts in the Python language: libraries.\n",
+        "\n",
+        "![alt text](https://media.giphy.com/media/3o6ozkeXSb0Cm25CzS/giphy.gif)\n",
+        "\n",
+        "(No, not that type of library... well, the idea is similar.)\n",
+        "\n",
+        "\n",
+        "\n"
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "j0E9KSaox8gV"
+      },
+      "source": [
+        "As mentioned at the start of the first lesson, what makes Python a particularly popular language is the fact that you can use code that's already been written by other people, so you don't have to reinvent the wheel each time you need to do something.\n",
+        "\n",
+        "For example, let's say I want to write some code that outputs a random integer between 1 and 10. It might be hard to write code from scratch that tells a computer to simulate randomness, but luckily, others have written this code for us to use!\n",
+        "\n",
+        "How do we actually do this? In the following example, we're telling Python that we want to use a library called `random`:\n"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "metadata": {
+        "id": "klTrMcYezCUJ"
+      },
+      "source": [
+        "import random"
+      ],
+      "execution_count": null,
+      "outputs": []
+    },
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "VtcQHqlvzEZS"
+      },
+      "source": [
+        "`random` happens to be a library of code that comes with Python. The keyword `import` tells Python that we want to import all of the code in that library into our current program so we can use it."
+      ]
+    },
