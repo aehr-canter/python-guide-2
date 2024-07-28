@@ -917,3 +917,68 @@
         "When we run `print(\"Hello world\")`, we are running the function with a single parameter, which is a string that has the value `\"Hello world\"`."
       ]
     },
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "HmOUWIWY5Vrc"
+      },
+      "source": [
+        "### Exercise\n",
+        "\n",
+        "Let's go back to using the `randint()` function from the `random` library.\n",
+        "\n",
+        "Say I give you a list of three elements. How could you use `randint()` and list indexing to print one of the elements out by random?"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "metadata": {
+        "id": "4z-ctKKo5nor"
+      },
+      "source": [
+        "import random\n",
+        "\n",
+        "insp = [\"You can do it!\", \"Progress takes time!\", \"Keep up the good work!\"]\n",
+        "\n",
+        "# Add your code below to randomly print one of the elements from the list"
+      ],
+      "execution_count": null,
+      "outputs": []
+    },
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "YsDowlr76HhI"
+      },
+      "source": [
+        "## Nested Functions\n",
+        "\n",
+        "Just like with nested loops and 2D lists, we can have functions within functions. We've actually seen this code in the past as well, like when we do:\n",
+        "\n",
+        "```\n",
+        "num = int(input(\"Enter an integer: \"))\n",
+        "```\n",
+        "\n",
+        "There are two functions being used here: `input()` and `int()`.\n",
+        "\n",
+        "`input()` does what you would expect: it takes user input. The parameter (which in this case is `\"Enter an integer: \"`) is a message that's shown to the user as you take input.\n",
+        "\n",
+        "But what about `int()`?\n",
+        "\n",
+        "Try the following code and see what happens:"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "metadata": {
+        "id": "PT8ErSAl6wJm"
+      },
+      "source": [
+        "num = input(\"Enter an integer: \")\n",
+        "\n",
+        "if num > 5:\n",
+        "  print(\"Your number was greater than 5.\")"
+      ],
+      "execution_count": null,
+      "outputs": []
+    },
