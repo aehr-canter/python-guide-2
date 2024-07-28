@@ -887,3 +887,33 @@
         "This means that from the library `random`, we want to **call** (or use) the function called `randint()`."
       ]
     },
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "GC7KLBTv3UOQ"
+      },
+      "source": [
+        "### Inputs, or Parameters\n",
+        "\n",
+        "Note that the origin of the term \"function\" in computer science does have its roots in the concept of functions from math. If we think of a math function as something that takes in an input, does some work, and then returns an output, this is essentially what a Python function does as well.\n",
+        "\n",
+        "For the function `random.randint(1, 11)`, we are taking two inputs (`1` and `11`) and returning a random integer, from 1 up to 11.\n",
+        "\n",
+        "In programming, we call the inputs to a function its **parameters**."
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "Osz3HGCu4j5b"
+      },
+      "source": [
+        "### Functions Everywhere!\n",
+        "\n",
+        "Now that we've talked about functions, it's time to mention... we've actually been seeing functions in use from the very first code you've run!\n",
+        "\n",
+        "When we run the code `print()`, we are actually running a function that's built into Python.\n",
+        "\n",
+        "When we run `print(\"Hello world\")`, we are running the function with a single parameter, which is a string that has the value `\"Hello world\"`."
+      ]
+    },
