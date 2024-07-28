@@ -782,3 +782,65 @@
         "`random` happens to be a library of code that comes with Python. The keyword `import` tells Python that we want to import all of the code in that library into our current program so we can use it."
       ]
     },
+    {
+      "cell_type": "code",
+      "metadata": {
+        "id": "dXzHSVwbzRE_"
+      },
+      "source": [
+        "import random\n",
+        "\n",
+        "rand_no = random.randint(1, 11)\n",
+        "print(rand_no)"
+      ],
+      "execution_count": null,
+      "outputs": []
+    },
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "xO8SQSuBzaOW"
+      },
+      "source": [
+        "Run the above code a few times to see that a random integer between 1 and 10 is printed out each time.\n",
+        "\n",
+        "This works because someone else in the world has written the `random` library, and we are making use of code that they have written.\n",
+        "\n",
+        "For the purposes of artificial intelligence, there are many libraries that other people have written (and are constantly being updated) that help turn the concepts we learn into code. Scikit-learn is one of these libraries that we'll see more of throughout the AI4ALL program. If we want to import it, we write the following line:"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "metadata": {
+        "id": "NWtzf4Vi0Izn"
+      },
+      "source": [
+        "import sklearn"
+      ],
+      "execution_count": null,
+      "outputs": []
+    },
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "0zNW82qN0RMV"
+      },
+      "source": [
+        "When we write programs, we typically put all of our import statements at the top of all of our code, so that we make sure the code is imported before using it. This is because we cannot call code from the `random` library before we say `import random`.\n",
+        "\n",
+        "As a final note, other words you might hear when talking about libraries include **module**, **package**, and **framework**. These are all slightly different, but fundamentally, they're all pieces of code that are external to the code you're currently writing, that you need to import.\n",
+        "\n",
+        "To oversimplify, a module is usually a single file of Python code, a package is a set of modules (or other packages), a library is a collection of packages (though you can really say \"package\" and \"library\" interchangeably for Python), and a framework is a collection of libraries that are all intended to work together in a specific way."
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "tsrJIQL0Qv2n"
+      },
+      "source": [
+        "## Functions\n",
+        "\n",
+        "Let's look at the random integer example again:"
+      ]
+    },
