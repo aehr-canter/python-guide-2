@@ -844,3 +844,46 @@
         "Let's look at the random integer example again:"
       ]
     },
+    {
+      "cell_type": "code",
+      "metadata": {
+        "id": "bynVpfOd0-do",
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "outputId": "3176e642-7d6e-4554-fec0-d321cf7086b6"
+      },
+      "source": [
+        "import random\n",
+        "\n",
+        "rand_no = random.randint(1, 11)\n",
+        "print(rand_no)"
+      ],
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "8\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "aQzuaQnu0_8Q"
+      },
+      "source": [
+        "When we write libraries, we want to organize our code into logical blocks that can be reused by ourselves and others. These logical blocks are called **functions**.\n",
+        "\n",
+        "In the example above, we see the code:\n",
+        "\n",
+        "```\n",
+        "random.randint(1, 11)\n",
+        "```\n",
+        "\n",
+        "This means that from the library `random`, we want to **call** (or use) the function called `randint()`."
+      ]
+    },
