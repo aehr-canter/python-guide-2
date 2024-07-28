@@ -698,3 +698,36 @@
         "How can we print this list out? We can use a nested loop!"
       ]
     },
+    {
+      "cell_type": "code",
+      "metadata": {
+        "id": "iV-k4Jkfu_qY"
+      },
+      "source": [
+        "two_d_list = [[\"name\", \"favorite color\"],\n",
+        "              [\"wells\", \"yellow\"],\n",
+        "              [\"susanna\", \"black\"]]\n",
+        "\n",
+        "for row in two_d_list:\n",
+        "  for item in row:\n",
+        "    print(item, end=' ')\n",
+        "  print()"
+      ],
+      "execution_count": null,
+      "outputs": []
+    },
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "8JIYY8SevRVp"
+      },
+      "source": [
+        "Notice that each inner list in the example above is of the same length (2 items). This doesn't always have to be the case, but when it is, we call it a **matrix**. (Plural form: Matrices)\n",
+        "\n",
+        "![alt text](https://media.giphy.com/media/3rVfBUa9f0RErtMZBH/giphy.gif)\n",
+        "\n",
+        "(The above gif is from a movie from 1999 called _The Matrix_.)\n",
+        "\n",
+        "We'll see matrices just about everywhere when writing programs that deal with artificial intelligence."
+      ]
+    },
