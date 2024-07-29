@@ -1081,4 +1081,46 @@
       "cell_type": "markdown",
       "metadata": {
         "id": "0PkmO2Pn9Buh"
+      },},
+      "source": [
+        "If you entered something that doesn't look like an integer, Python won't know how to convert it into an integer, and you'll get an error."
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "IlCqoNRB9dYu"
       },
+      "source": [
+        "## Guessing Game Example\n",
+        "\n",
+        "Let's put our knowledge of libraries, functions, loops, and conditionals to the test.\n",
+        "\n",
+        "For this example, we'll write a guessing game, where a random integer from 1 to 10 is picked, and the user has 3 guesses to try to get it right.\n",
+        "\n",
+        "Here's some code to get started:"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "metadata": {
+        "id": "uCVbefUk90kA"
+      },
+      "source": [
+        "# We need this to be able to pick a random integer\n",
+        "import random\n",
+        "\n",
+        "# Pick a random integer from 1 to 10\n",
+        "number = random.randint(1, 11)\n",
+        "\n",
+        "# Print a nice message for the user\n",
+        "print(\"Hello there! This is a random number guessing game. You have 3 tries to guess the right number from 1 to 10.\")\n",
+        "\n",
+        "# Ask the user to enter an integer\n",
+        "guess = int(input(\"Enter an integer guess: \"))\n",
+        "\n",
+        "# We'll add more code here in a bit"
+      ],
+      "execution_count": null,
+      "outputs": []
+    },
