@@ -1124,3 +1124,42 @@
       "execution_count": null,
       "outputs": []
     },
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "ml2L1O_Y-OpF"
+      },
+      "source": [
+        "When writing longer programs, a good practice is to write pieces of it at once and test each piece as you go. This way, it's easier to identify bugs and debug as you add to your program.\n",
+        "\n",
+        "The program so far generates a random number and also asks the user for one guess. To finish the game, we need to give the user 3 guesses, and also tell the user if they've guessed correctly. Let's add to the code from above:"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "metadata": {
+        "id": "VjAjrxUw-97a"
+      },
+      "source": [
+        "import random\n",
+        "\n",
+        "number = random.randint(1, 11)\n",
+        "print(\"Hello there! This is a random number guessing game. You have 3 tries to guess the right number from 1 to 10.\")\n",
+        "\n",
+        "guess = int(input(\"Enter an integer guess: \"))\n",
+        "\n",
+        "# How can we check that guess is correct or not? Use a conditional!\n",
+        "\n",
+        "if guess == number:\n",
+        "  print(\"You got it!\")\n",
+        "else:\n",
+        "  print(\"Wrong guess!\")"
+      ],
+      "execution_count": null,
+      "outputs": []
+    },
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "V5iuzK-J_Huy"
+      },
