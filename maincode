@@ -1021,3 +1021,34 @@
       "execution_count": null,
       "outputs": []
     },
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "x00oC6Fm74Lq"
+      },
+      "source": [
+        "Whereas the variable `a` has been assigned the integer 3, the variable `b` has been assigned a string that happens to say \"3\". The two are different in Python!\n",
+        "\n",
+        "When we use the function `int()`, we are telling the computer to convert whatever parameter we pass into `int()` into an integer, as best as we can. For example:"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "metadata": {
+        "id": "S4yZdc988QUB"
+      },
+      "source": [
+        "a = 4\n",
+        "b = int(\"3\")\n",
+        "\n",
+        "if a > b:\n",
+        "  print(\"We can make this comparison now!\")"
+      ],
+      "execution_count": null,
+      "outputs": []
+    },
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "9aqKLyYa8Z9C"
+      },
