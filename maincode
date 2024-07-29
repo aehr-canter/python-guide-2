@@ -982,3 +982,42 @@
       "execution_count": null,
       "outputs": []
     },
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "J4brYMMV65mA"
+      },
+      "source": [
+        "Once you run this code, you'll notice that there's an error! What happened?\n",
+        "\n",
+        "The error message says:\n",
+        "\n",
+        "```\n",
+        "TypeError: '>' not supported between instances of 'str' and 'int'\n",
+        "```\n",
+        "\n",
+        "and points us at line 3, where we compare `num` to `5`.\n",
+        "\n",
+        "It turns out that the variable `num` is a string, whereas the number `5` is an integer, and we can't compare strings to integers using the `>` comparison operator.\n",
+        "\n",
+        "When we take input from the user using the function `input()`, we are actually returning a string. So when we write the following line:\n",
+        "\n",
+        "```\n",
+        "num = input(\"Enter an integer: \")\n",
+        "```\n",
+        "\n",
+        "`num` will actually be given whatever the user enters, but as a string. This is because it's valid for the user to type out phrases and sentences as input, and Python itself doesn't know that we expect an integer. It's as important to note that there's a difference between the following two variables:"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "metadata": {
+        "id": "R2eRI4Z272A4"
+      },
+      "source": [
+        "a = 3\n",
+        "b = \"3\""
+      ],
+      "execution_count": null,
+      "outputs": []
+    },
