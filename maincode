@@ -1052,3 +1052,33 @@
       "metadata": {
         "id": "9aqKLyYa8Z9C"
       },
+      "source": [
+        "So when we write\n",
+        "\n",
+        "```\n",
+        "num = int(input(\"Enter an integer: \"))\n",
+        "```\n",
+        "\n",
+        "what we're really doing is taking an input as a string, telling Python to convert it into an integer, and then assigning that integer value to `num`.\n",
+        "\n",
+        "What happens if what the user tried to input was not an integer? (Perhaps some of you have already tried this!)"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "metadata": {
+        "id": "hRExKzkl85Qc"
+      },
+      "source": [
+        "# Try to enter something that's not an integer\n",
+        "num = int(input(\"Enter an integer: \"))\n",
+        "print(num)"
+      ],
+      "execution_count": null,
+      "outputs": []
+    },
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "0PkmO2Pn9Buh"
+      },
